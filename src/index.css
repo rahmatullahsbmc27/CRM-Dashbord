@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer components {
+  .grid-layout {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+  }
+
+  .text-card {
+    @apply bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all;
+  }
+}
